@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AddTaskActivity"/>
+        <activity android:name=".EditActivity"/>
+        <activity android:name=".FullTaskActivity"/>
+        <provider
+            android:authorities="ru.ifmo.md.exam1"
+            android:name=".MyContentProvider"/>
     </application>
 
 </manifest>
